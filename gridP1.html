@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gride Practice</title>
+        <style>
+            .container{
+                display: grid;
+                height: 96vh;
+                grid-template-columns:33.3% 33.3% 33.3%;
+                grid-template-rows:33.3% 33.3% 33.3% ;
+                grid-gap:20px;
+                grid-column: 20px;
+            }
+            .one{
+                background-color: rgb(51, 69, 69);
+            }
+            .two{
+                background-color: rgb(0, 255, 115);
+            }
+            .three{
+                background-color: rgb(255, 81, 0);
+            }
+            .four{
+                background-color: rgb(0, 26, 255);
+            }
+            .five{
+                background-color: rgb(217, 0, 255);
+            }
+            .six{
+                background-color: rgb(255, 0, 76);
+            }
+            .seven{
+                background-color:orange;
+            }
+            .eight{
+                background-color: rebeccapurple;
+            }
+            .nine{
+                background-color:brown;
+            }
+            .container >div{
+                display: flex;
+                border-radius: 10px;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="one">one box</div>     
+            <div class="two">two box</div>
+            <div class="three">three box</div>
+            <div class="four"> four box</div>
+            <div class="five"> five box</div>
+            <div class="six">six box</div>
+            <div class="seven">seven box</div>
+            <div class="eight">eight box</div>
+            <div class="nine">nine box</div>
+        </div>
+    </body>
+</html>
